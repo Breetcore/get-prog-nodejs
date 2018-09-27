@@ -1,0 +1,28 @@
+<h2>Subscriber Data for
+    <%= subscriber.fullName %>
+</h2>
+
+<table class="table">
+    <tr>
+        <th>Name</th>
+        <td>
+            <%= subscriber.fullName %>
+        </td>
+    </tr>
+    <tr>
+        <th>Email</th>
+        <td>
+            <%= subscriber.email %>
+        </td>
+    </tr>
+    <tr>
+        <th>Zip Code</th>
+        <td>
+            <%= subscriber.zipCode %>
+        </td>
+    </tr>
+</table>
+
+<div class="center">
+    <p>This subscriber has <%= subscriber.courses.length %> associated course(s)</p>
+</div>

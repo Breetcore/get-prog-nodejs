@@ -1,0 +1,29 @@
+<h2>Subscribers Overview</h2>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Zip Code</th>
+            <th>Courses</th>
+        </tr>
+    </thead>
+    <tbody>
+        <% subscribers.forEach(subscriber => { %>
+            <tr>
+                <td>
+                    <%= subscriber.fullName %>
+                </td>
+                <td>
+                    <%= subscriber.email %>
+                </td>
+                <td>
+                    <%= subscriber.zipCode %>
+                </td>
+                <td>
+                    <%= subscriber.courses %>
+                </td>
+            </tr>
+            <% }); %>
+    </tbody>
+</table>

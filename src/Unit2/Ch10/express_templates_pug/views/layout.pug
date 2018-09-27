@@ -1,0 +1,12 @@
+html
+head
+    title= title
+body
+    block nav
+        include partials/navigation.pug
+    block notification
+        include partials/notification.pug
+    block content
+    -let youAreUsingPug = true;
+    block foot
+        include partials/footer.pug

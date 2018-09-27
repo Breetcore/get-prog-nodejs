@@ -1,0 +1,17 @@
+<div class="container">
+    <div class="col-6">
+        <img src="images/graph.png" alt="">
+    </div>
+    <div class="col-6">
+        <h1>Reach out to us!</h1>
+        <p>Enter your email if you're interested to learn more:</p>
+        <form action="/subscribe" method="post">
+            <input type="text" name="name" placeholder="Name">
+            <input type="text" name="surname" placeholder="Surname">
+            <input type="email" name="email" placeholder="Email" pattern="^([a-zA-Z\d._%+-]+)@{1}([a-zA-Z0-9.-]+)\.{1}([a-zA-Z]{2,})$" title="Valid email address">
+            <input type="text" name="zipCode" placeholder="Zip Code" pattern="^([0-9]{4})( {0,1})([a-zA-Z]{2})$" title="4 digits, 2 letters">
+            <input type="submit" name="submit">
+        </form>
+        <p>We'll get back to you soon!</p>
+    </div>
+</div>
